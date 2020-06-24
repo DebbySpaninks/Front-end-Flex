@@ -1,0 +1,36 @@
+body {
+  background-color:#e1faf7;
+  color:#1f1d1d;
+  font-family: 'Lucida Sans Unicode', 'Lucida Sans', Arial, sans-serif;
+  font-size: 20px;
+  text-align: center;
+}
+
+.green-border {
+  border: 2px dashed #47cebe;
+  border-radius: 18px;
+  text-align: center;
+}
+
+img {
+  border-radius: 50%;
+  box-shadow:  0 0 20px 5px rgba(7, 212, 189, 0.5)
+}
+
+h1, h2{
+  font-size: 50px;
+  background-color: #ffffff;
+  color: #04796b;
+  line-height: 1.6em;
+  font-family: 'Indie Flower', cursive;
+}
+
+.hallo2 {
+  font-size: 70px;
+}
+
+main {
+  font-size: 25px;
+  background-color: #ffffff;
+  border-radius: 18px;
+}
