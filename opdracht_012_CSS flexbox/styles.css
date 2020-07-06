@@ -1,0 +1,43 @@
+body {
+  text-align: center;
+  margin: 30px 10px 0px 5px;
+  width: 99%;
+}
+
+.blogpost {
+  display: flex;
+  flex-flow: row wrap;   
+  /*flex-flow: is flex-direction: row (default); en flex-wrap: nowrap (default); samen*/
+  justify-content: flex-end; 
+  /*justify-content:....; defines the alignment along the main axis*/
+  /*align-items:......; cross axis on the current line*/
+  /*aligns-flex:......; container’s lines within when there's extra space in the cross-axis*/
+}
+
+.rodeblog {
+  border: 2px dotted black;
+  /*order: 0; (default)*/
+  flex-grow: 1; 
+  /*flex-grow: 0; (default)*/
+  /*flex-shrink: 1; (default)*/
+  /*flex-basis: auto; (default)*/
+  align-self: flex-end; 
+  /*align-self: overrides stretch (default alignment) by container's align-items property*/
+  padding: 15px 15px 0px 15px;
+  margin-top: 300px;
+}
+
+.oranjegeleblog {
+  flex-grow: 1;
+  align-self: center;
+  padding: 20px;
+  margin-top: 180px;
+}
+
+.paarseblog {
+  border: 2px dotted black;
+  flex-grow: 3;
+  align-self: flex-start;
+  padding-top: 10px;
+  margin-bottom: 30px;
+}
