@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="nl">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" type="text/css" href="styles.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Indie+Flower&display=swap" rel="stylesheet"/>
+    <title>Keukenhofgevoel bij je thuis</title>
+  </head>
+
+  <body>
+    <div class="grid-container-contact">
+      <header class="header">
+      <h1>
+        't Keukenhofje <br /> <a class="keukenhofgevoel">Contactpagina</a> <br />
+      </h1>
+        <hr />
+          <p>
+            Op deze pagina kunt u uw mooiste foto gemaakt in Keukenhof toevoegen. Dan plaatsen wij hem op onze fotopagina.
+          </p>
+      </header>
+      
+      <main>
+      <form name="contact" method="POST" data-netlify="true">
+        <br><h2>Plaats hieronder uw foto</h2>
+        <p><label>Naam <br><input type="text" name="name" /></label></p>
+        <p><label>E-mailadres <br><input type="email" name="email" /></label></p>
+        <p><label>Telefoonnr.<br><input type="number" name="phonenumber" /></label></p>
+        <p>
+          <label>Man<input type="radio" name="button" /></label>
+          <label>Vrouw<input type="radio" name="button" /></label>
+          <label>Neutraal<input type="radio" name="button" /></label>
+        </p>
+        <p><label>Geboortedatum<br><input type="date" name="date" /></label></p>
+        <p><label>In welk jaar bent u naar Keukenhof geweest?<br>
+            Nog nooit<input type="checkbox" name="checkbox" />
+            2017<input type="checkbox" name="checkbox" />
+            2018<input type="checkbox" name="checkbox" />
+            2019<input type="checkbox" name="checkbox" />
+          </label></p>
+        <p><label>Favo kleur bloem&nbsp;<input type="color" name="color" /></label></p>
+        <p><label>Upload hier uw mooiste foto<br><input type="file" name="uploadfile" /></label></p>
+        <p><button type="reset">Formulier leegmaken</button><button type="submit">Verzenden</button></p>
+        <br>
+      </form>
+      </main>
+
+      <footer class="footer">
+        <a class="link-index" href="index.html">Home</a>
+        <a class="link-keukenhof" href="https://keukenhof.nl/nl/">Keukenhof</a>
+        <a class="link-contact" href="contact.html">Contact</a>
+      </footer>
+    </div>
+  </body>
+</html>
